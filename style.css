@@ -89,6 +89,12 @@ a {
     
 }
 
+.top-logo {
+    padding: 10px;
+    margin-right: 19.7em;
+    
+}
+
 /*----END OF NAV-BAR----*/
 
 
@@ -126,10 +132,17 @@ a {
 } 
 
 #about {
-
+    grid-template-columns: 70% 30%;
+    display: grid;
     
+} 
+
+#contact {
+    grid-template-columns: 70% 30%;
+    display: grid;
     
 }
+    
 /*-----END OF ABOUT ME SECTION-----*/
 
 
@@ -239,4 +252,10 @@ section{
   color: white;
   font-size: 22px;
 
+}
 
+.mono-nav {
+    background-color: aqua;
+    
+    
+}
