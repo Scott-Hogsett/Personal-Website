@@ -36,7 +36,7 @@ p {
 
 /*----PARALLEX IMAGE----*/
 
-.pimg1, .pimg2, .pimg3 {
+.pimg1 {
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -46,7 +46,7 @@ p {
 }
 
 .pimg1 {
-    background-image: url(img/banner-%20lower.png);
+    background-image: url(img/banner5.png);
     min-height: 650px;
     
 }
@@ -242,7 +242,6 @@ section{
   position: fixed;
   width: 50px;
   height: 50px;
-  background: #27ae60;
   bottom: 40px;
   right: 50px;
 
