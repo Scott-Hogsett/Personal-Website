@@ -36,6 +36,13 @@ p {
 
 /*----PARALLEX IMAGE----*/
 
+.pimg1 p {
+    font-size: 2em;
+    padding-top: 260px;
+    padding-left: 100px
+    
+}
+
 .pimg1 {
     position: relative;
     opacity: 0.70;
