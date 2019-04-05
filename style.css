@@ -53,7 +53,7 @@ p {
 }
 
 .pimg1 {
-    background-image: url(img/banner5.png);
+    background-image: url(img/banner6.svg);
     min-height: 650px;
     
 }
@@ -68,38 +68,38 @@ p {
     position: fixed;
     width: 100%;
     z-index: +1;
-    
 }
 
 .bar {
-    /*position: fixed;*/
-    background-color: aliceblue;
-    padding-bottom: 10px;
-    
-}
+    background-color: white;
+    width: 100%; 
+} 
 
 .list-item {
     padding-top: 15px;
-    
+    display: inline;
+}
+
+a:hover, a:active {
+    color: #00A45A;
+    transition: all 1,0s ease-in-out;
+    transform: scale(1.1);
 }
 
 .logo {
-    padding-right: 50px
-    
+    padding-right: 50px  
 }
 
 a {
     color: #00A45A;
     font-family: 'Oswald', sans-serif;
     font-size: 1.6em;
-    padding-right: 1em;
-    
+    padding-right: 1em; 
 }
 
 .top-logo {
     padding: 10px;
-    margin-right: 19.7em;
-    
+    margin-right: 19.7em; 
 }
 
 /*----END OF NAV-BAR----*/
@@ -115,6 +115,29 @@ a {
     padding-top: 2em;
 }
 
+#about {
+    grid-template-columns: 50% 50%;
+    display: grid;   
+} 
+
+#about p {
+    color: #00A45A;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    line-height: 35px;   
+}
+
+.about-illustration {
+    margin-top: 8em;
+    margin-left: 1em; 
+    z-index: -1;
+}
+    
+/*-----END OF ABOUT ME SECTION-----*/
+
+
+/*----CONTINUE BUTTON----*/
+
 .btn {
     margin-left: 15em;
     margin-top: 1em;
@@ -122,7 +145,8 @@ a {
     padding-right: 2em;
     margin-bottom: 1em;
     font-size: 1.5em;
-    background-color: #00A45A; 
+    background-color: #00A45A;
+    
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
@@ -131,34 +155,7 @@ a {
     
 }
 
-.bar {
-    background-color: white;
-    width: 100%;
-    
-    
-} 
-
-#about {
-    grid-template-columns: 50% 50%;
-    display: grid;
-    
-} 
-
-#about p {
-    color: #00A45A;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.6em;
-    line-height: 35px;
-    
-}
-
-.about-illustration {
-    margin-top: 14em;
-    margin-left: 1em;
-    
-}
-    
-/*-----END OF ABOUT ME SECTION-----*/
+/*----END OF CONTINUE BUTTON----*/
 
 
 /*-----PORTFOLIO SECTION-----*/
@@ -169,7 +166,6 @@ a {
     margin: auto; 
     padding-top: 2em;
 }
-
 
 .container {
   position: relative;
@@ -247,7 +243,6 @@ a {
 .icons {
     padding-right: 8px;
     margin-top: 30px;
-    
 }
 
 /*-----scroll button-----*/
@@ -255,12 +250,6 @@ a {
 html{
   scroll-behavior: smooth;
 
-}
-
-body{
-
-  margin: 0;
-  padding: 0;
 }
 
 section{
@@ -284,8 +273,3 @@ section{
 
 }
 
-.mono-nav {
-    background-color: aqua;
-    
-    
-}
