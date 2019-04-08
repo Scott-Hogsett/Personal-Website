@@ -14,38 +14,59 @@ body, html {
 h2 {
     font-size: 5em;
     font-family: 'Oswald', sans-serif; 
-    padding-bottom: 0.2em;
     color: #00A45A;
 }
 
 h3 {
     font-size: 3em;
     font-family: 'Oswald', sans-serif; 
-    padding-bottom: 0.5em;
     color: #00A45A;
+    line-height: normal;
 }
 
 p {
-   font-size: 1.6em;
-   font-family: 'Oswald', sans-serif; 
-   line-height: 1.4em;
-   color: #00A45A;
- 
+    font-size: 1.6em;
+    font-family: 'Oswald', sans-serif; 
+    line-height: 1.4em;
+    color: #00A45A;
 }
+
+.intro-text1 {
+    font-size: 3em;
+    padding-top: 500px;
+    text-align: center;
+}
+
+.intro-text2 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+/*----Call to action----*/
+
+.continue-button a:link a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.continue-button a:hover a:active {
+  background-color: red;
+  
+}
+
+/*----End of Call to action----*/
 
 
 /*----PARALLEX IMAGE----*/
 
-.pimg1 p {
-    font-size: 3em;
-    padding-top: 560px;
-    padding-left: 320px
-    
-}
-
 .pimg1 {
     position: relative;
-    opacity: 0.70;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,8 +75,6 @@ p {
 
 .pimg1 {
     background-image: url(img/banner6.svg);
-    min-height: 650px;
-    
 }
 
 
@@ -64,26 +83,40 @@ p {
 
 /*----NAV-BAR----*/
 
+.nav {
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-bottom: 0;
+    list-style: none;
+    text-align: right;
+    padding-top: 12px;
+}
+
 .nav-bar {
     position: fixed;
     width: 100%;
     z-index: +1;
+    top: 0;
+    height: 100px;
+    background: #fff;
 }
 
+
+.nav-bar img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
 .bar {
     background-color: white;
     width: 100%; 
 } 
 
 .list-item {
-    padding-top: 15px;
+    margin-top: 35px;
     display: inline;
-}
-
-a:hover, a:active {
-    color: #00A45A;
-    transition: all 1,0s ease-in-out;
-    transform: scale(1.1);
 }
 
 .logo {
@@ -95,6 +128,13 @@ a {
     font-family: 'Oswald', sans-serif;
     font-size: 1.6em;
     padding-right: 1em; 
+    text-decoration:none;
+}
+
+a:hover {
+    transition: all 1.5s ease-in-out;
+    transform: scale 1.5;
+    color: red;
 }
 
 .top-logo {
@@ -104,7 +144,23 @@ a {
 
 /*----END OF NAV-BAR----*/
 
+/*-----BUTTON-----*/
 
+.button {
+  background-color: #4CAF50; /* Green */
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button1 {padding: 10px 24px;}
+
+
+/*-----BUTTON END-----*/
 
 /*----ABOUT ME SECTION----*/
 
@@ -134,29 +190,6 @@ a {
 }
     
 /*-----END OF ABOUT ME SECTION-----*/
-
-
-/*----CONTINUE BUTTON----*/
-
-.btn {
-    margin-left: 15em;
-    margin-top: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
-    margin-bottom: 1em;
-    font-size: 1.5em;
-    background-color: #00A45A;
-    
-}
-
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
-    background-color: #00A45A;
-    border-color: #00A45A;
-    
-}
-
-/*----END OF CONTINUE BUTTON----*/
-
 
 /*-----PORTFOLIO SECTION-----*/
 
@@ -227,6 +260,7 @@ a {
     max-width: 960px;
     margin: auto; 
     padding-top: 2em;
+    line-height: 20px;
      
 }
 
@@ -258,7 +292,7 @@ section{
   background-size: cover;
 }
 
-.gotopbtn{
+.gotopbtn {
   position: fixed;
   width: 50px;
   height: 50px;
@@ -270,6 +304,6 @@ section{
   line-height: 50px;
   color: white;
   font-size: 22px;
-
 }
+
 
