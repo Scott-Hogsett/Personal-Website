@@ -8,8 +8,12 @@ body, html {
     font-family: "lato", sans-serif;
     font-weight: 400;
     line-height: 1.8em;
-    color: #666
+    color: #666;
 }
+
+/*----END OF MAIN BODY CSS----*/
+
+/*----START OF TEXT CSS-----*/
 
 h2 {
     font-size: 5em;
@@ -26,7 +30,7 @@ h3 {
 
 p {
     font-size: 1.6em;
-    font-family: 'Oswald', sans-serif; 
+    font-family: 'Oswald', sans-serif;
     line-height: 1.4em;
     color: #00A45A;
 }
@@ -41,27 +45,10 @@ p {
     font-size: 1.5em;
     text-align: center;
     padding-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
 }
 
-
-/*----Call to action----*/
-
-.continue-button a:link a:visited {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.continue-button a:hover a:active {
-  background-color: red;
-  
-}
-
-/*----End of Call to action----*/
-
+/*----END OF TEXT CSS----*/
 
 /*----PARALLEX IMAGE----*/
 
@@ -84,7 +71,6 @@ p {
 /*----NAV-BAR----*/
 
 .nav {
-    flex-wrap: wrap;
     padding-left: 0;
     padding-bottom: 0;
     list-style: none;
@@ -107,8 +93,8 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-
 }
+
 .bar {
     background-color: white;
     width: 100%; 
@@ -131,10 +117,9 @@ a {
     text-decoration:none;
 }
 
-a:hover {
-    transition: all 1.5s ease-in-out;
-    transform: scale 1.5;
-    color: red;
+a:hover, a:active{
+    transition: all .5s ease-in-out;
+    color:black;
 }
 
 .top-logo {
@@ -143,24 +128,6 @@ a:hover {
 }
 
 /*----END OF NAV-BAR----*/
-
-/*-----BUTTON-----*/
-
-.button {
-  background-color: #4CAF50; /* Green */
-  border-radius: 5px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-}
-
-.button1 {padding: 10px 24px;}
-
-
-/*-----BUTTON END-----*/
 
 /*----ABOUT ME SECTION----*/
 
@@ -177,10 +144,10 @@ a:hover {
 } 
 
 #about p {
-    color: #00A45A;
-    font-family: 'Oswald', sans-serif;
     font-size: 1.6em;
-    line-height: 35px;   
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.4em;
+    color: #00A45A;   
 }
 
 .about-illustration {
@@ -260,8 +227,7 @@ a:hover {
     max-width: 960px;
     margin: auto; 
     padding-top: 2em;
-    line-height: 20px;
-     
+    line-height: 20px; 
 }
 
 #contact {
@@ -271,7 +237,6 @@ a:hover {
 
 .contact-illustration {
     margin-top: 25px;
-    
 }
 
 .icons {
@@ -279,11 +244,19 @@ a:hover {
     margin-top: 30px;
 }
 
-/*-----scroll button-----*/
+.contact-section p {
+    font-size: 1.6em;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.4em;
+    color: #00A45A;
+}
+
+/*-----END OF CONTACT ME SECTION-----*/
+
+/*-----SCROLL BUTTON CSS-----*/
 
 html{
   scroll-behavior: smooth;
-
 }
 
 section{
@@ -306,4 +279,5 @@ section{
   font-size: 22px;
 }
 
+/*-----END OF SCROLL BUTTON CSS-----*/
 
