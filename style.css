@@ -281,3 +281,37 @@ section{
 
 /*-----END OF SCROLL BUTTON CSS-----*/
 
+/*------START OF CASE STUDY FOR BRANDING 
+
+
+
+/*------INTRO INTO BRANDING-------*/
+
+.intro-section {
+    width: 80%;
+    max-width: 950px;
+    margin: auto;
+    padding: 3em;
+    padding-top: 8em;
+}
+
+.intro-section h {
+    font-size: 4em;
+    color: #00A45A;
+    font-family: 'Oswald', sans-serif;
+}
+
+.mono-title h {
+    font-size: 4em;
+    color: #00A45A;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 6em;
+    
+}
+
+.intro-section p {
+    font-size: 1.5em;
+    color: #00A45A;
+    font-family: 'Quicksand', sans-serif;
+    
+}
