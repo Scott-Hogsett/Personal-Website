@@ -223,6 +223,11 @@ display: inline-block;
     margin-right: 0.188em;
 }
 
+.overlay .text {
+    font-size: 1em;
+    
+}
+
 /*-----END OF PORTFOLIO SECTION-----*/
 
 
