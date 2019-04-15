@@ -225,6 +225,10 @@ display: inline-block;
 
 .overlay .text {
     font-size: 1em;
+}
+
+.overlay .text p {
+    font-size: 0.5em;
     
 }
 
