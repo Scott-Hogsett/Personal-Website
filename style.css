@@ -194,7 +194,7 @@ display: inline-block;
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.8s ease;
   background-color: #00A45A;
 }
 
