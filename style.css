@@ -247,13 +247,14 @@ display: inline-block;
 }
 
 .icons{
+    display: inline-block;
     padding-right: 8px;
     margin-top: 30px;
 }
 
 .icons a:hover {
     transform: scale(1.5);
-    transition: 1.5s;align-content: 
+    transition: 1.5s;
     
 }
 
