@@ -37,7 +37,7 @@ p {
 
 .intro-text1 {
     font-size: 3em;
-    padding-top: 500px;
+    padding-top: 560px;
     text-align: center;
 }
 
@@ -63,6 +63,7 @@ p {
 
 .pimg1 {
     background-image: url(img/banner6.svg);
+    height: 50em;
 }
 
 
