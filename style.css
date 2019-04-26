@@ -16,7 +16,7 @@ body, html {
 /*----START OF TEXT CSS-----*/
 
 h2 {
-    font-size: 5em;
+    font-size: 6em;
     font-family: 'Oswald', sans-serif; 
     color: #00A45A;
 }
@@ -37,7 +37,7 @@ p {
 
 .intro-text1 {
     font-size: 3em;
-    padding-top: 560px;
+    padding-top: 640px;
     text-align: center;
 }
 
@@ -63,7 +63,7 @@ p {
 
 .pimg1 {
     background-image: url(img/banner6.svg);
-    height: 50em;
+    height: 55em;
 }
 
 
@@ -140,9 +140,9 @@ display: inline-block;
 
 .about-section {
     width: 80%;
-    max-width: 59.375em;
-    margin: auto; 
-    padding-top: 2em;
+    max-width: 70em;
+    margin: auto;
+    padding-top: 5em;
 }
 
 #about {
@@ -151,7 +151,7 @@ display: inline-block;
 } 
 
 #about p {
-    font-size: 1.6em;
+    font-size: 1.8em;
     font-family: 'Quicksand', sans-serif;
     line-height: 1.4em;
     color: black; 
@@ -170,14 +170,16 @@ display: inline-block;
 
 .portfolio-section {
     width: 100%;
-    max-width: 59.375em;
-    margin: auto; 
-    padding-top: 2em;
+    max-width: 70em;
+    margin: auto;
+    padding-top: 5em;
 }
 
 .container {
   position: relative;
   width: 100%;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 .image {
@@ -192,11 +194,15 @@ display: inline-block;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
   opacity: 0;
   transition: 0.8s ease;
   background-color: #00A45A;
+}
+
+.article, .overlay {
+    height: 38em;
+    width: 16em;
+    padding-left: 0em;
 }
 
 .container:hover .overlay {
@@ -216,8 +222,7 @@ display: inline-block;
 }
 
 .column1, .column2, .column3, .column4 {
-    background-color: #00A45A;
-    width: 14.438em;
+    width: 16.1em;
     height: 34.375em;
     float: left;
     margin-left: 0.188em;
@@ -241,14 +246,14 @@ display: inline-block;
 .contact-section {
     height: 37.500em;
     width: 100%;
-    max-width: 60.000em;
+    max-width: 70em;
     margin: auto; 
     padding-top: 3.1em;
     line-height: 1.250em; 
 }
 
 #contact {
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
     display: grid;
 }
 
@@ -280,6 +285,7 @@ display: inline-block;
     border-width: 0.313em;
     border-color: #00A45A;
 }
+
 
 /*-----END OF CONTACT ME SECTION-----*/
 
