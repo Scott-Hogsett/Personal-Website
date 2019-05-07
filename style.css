@@ -3,6 +3,7 @@
 
 body, html {
     height: 100%;
+    max-width: 100%;
     margin: 0; 
     font-size: 1.000em;
     font-family: "lato", sans-serif;
@@ -16,7 +17,7 @@ body, html {
 /*----START OF TEXT CSS-----*/
 
 h2 {
-    font-size: 6em;
+    font-size: 4em;
     font-family: 'Oswald', sans-serif; 
     color: #00A45A;
 }
@@ -36,13 +37,13 @@ p {
 }
 
 .intro-text1 {
-    font-size: 3em;
-    padding-top: 640px;
+    font-size: 2.5em;
+    padding-top: 520px;
     text-align: center;
 }
 
 .intro-text2 {
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     padding-bottom: 1.875em;
     font-family: 'Oswald', sans-serif;
@@ -57,13 +58,12 @@ p {
     position: relative;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;  
+    background-repeat: no-repeat; 
 }
 
 .pimg1 {
     background-image: url(img/banner6.svg);
-    height: 55em;
+    height: 45em;
 }
 
 
@@ -77,7 +77,11 @@ p {
     padding-bottom: 0;
     list-style: none;
     text-align: right;
-    padding-top: 12px;
+}
+
+.list-div {
+    padding-top: 1.250em;
+    padding-right: 1.250em;
 }
 
 .nav-bar {
@@ -85,16 +89,15 @@ p {
     width: 100%;
     z-index: +1;
     top: 0;
-    height: 6.250em;
+    height: 3em;
     background: #fff;
+    
 }
 
-
-.nav-bar img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.bar {
+    grid-template-columns: 52% 50%;
+    display: grid; 
+     
 }
 
 .bar {
@@ -102,13 +105,14 @@ p {
     width: 100%; 
 } 
 
+.top-logo, .bar nav {
+    margin-top: 2px;
+    
+}
+
 .list-item {
     margin-top: 2.188em;
     display: inline;
-}
-
-.logo {
-    padding-right: 3.125em;  
 }
 
 a {
@@ -129,17 +133,13 @@ ul li a{
 display: inline-block;
 }
 
-.top-logo {
-    padding: 0.625em;
-    margin-right: 19.7em; 
-}
 
 /*----END OF NAV-BAR----*/
 
 /*----ABOUT ME SECTION----*/
 
 .about-section {
-    width: 80%;
+    width: 100%;
     max-width: 70em;
     margin: auto;
     padding-top: 5em;
@@ -349,5 +349,37 @@ section{
     font-size: 1.5em;
     color: #00A45A;
     font-family: 'Quicksand', sans-serif;
+    
+}
+
+
+/*-----MEDIA QUERIES------*/
+
+
+@media (max-width:60em) {
+
+    h2 {
+        color: aqua;
+    }
+    
+    .bar {
+    grid-template-columns: 20% 80%;
+    display: grid; 
+    
+    }
+    
+    .gotopbtn {
+        display: none;
+        
+    }
+}
+
+
+@media (max-width:40em) {
+
+    a {
+    font-size: 1em;
+}
+    
     
 }
