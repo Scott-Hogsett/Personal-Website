@@ -20,13 +20,15 @@ h2 {
     font-size: 4em;
     font-family: 'Oswald', sans-serif; 
     color: #00A45A;
+    margin-left: 1em;
 }
 
 h3 {
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Oswald', sans-serif; 
     color: #00A45A;
     line-height: normal;
+    margin-left: 0.9em;
 }
 
 p {
@@ -34,12 +36,14 @@ p {
     font-family: 'Oswald', sans-serif;
     line-height: 1.4em;
     color: #00A45A;
+    margin-left: 1.4em;
 }
 
 .intro-text1 {
     font-size: 2.5em;
     padding-top: 520px;
     text-align: center;
+    margin-right: 1em;
 }
 
 .intro-text2 {
@@ -164,6 +168,16 @@ display: inline-block;
     z-index: -1;
 }
     
+.about-me-title {
+    margin-left: 1em;
+    
+}
+
+.about-me-title {
+    margin-left: 1em;
+    
+}
+
 /*-----END OF ABOUT ME SECTION-----*/
 
 /*-----PORTFOLIO SECTION-----*/
@@ -239,6 +253,15 @@ display: inline-block;
     
 }
 
+#portfolio content {
+    text-align: center;
+    
+}
+    #content {
+        display: inline-block;
+        
+    }
+
 /*-----END OF PORTFOLIO SECTION-----*/
 
 
@@ -266,6 +289,11 @@ display: inline-block;
     display: inline-block;
     padding-right: 0.500em;
     margin-top: 1.875em;
+}
+
+.github {
+    margin-left: 1.3em;
+    
 }
 
 .icons a:hover {
@@ -354,113 +382,200 @@ section{
 
 /*-----MEDIA QUERIES------*/
 
+@media (max-width: 1150px) {
+    
+/*-----portfolio------*/    
 
-@media (max-width:60em) {
+    #portfolio  {
+    text-align: center;
     
-    .bar {
-    grid-template-columns: 20% 80%;
-    display: grid; 
-    
-    }
-    
-    .gotopbtn {
-        display: none;
-        
-    }
 }
-
-
-@media (max-width:40em) {
-
-    a {
-    font-size: 1em;
-}
-    
-    h2 {
-        font-size: 2.5em;
-        text-align: center;
+    #content {
+        display: inline-block;
         
     }
-    
-    h3 {
-        font-size: 1.5em;
-        margin-left: 1em;
-        
-    }
-    
     .column1, .column2, .column3, .column4 {
-    width: 12.1em;
-    height: 15em;
+    width: 13em;
+    height: 14em;
     float: left;
-    margin-left: 0.6em;
+    margin-left: 0.188em;
     margin-right: 0.188em;
-    margin-bottom: 0.5em;
 }
+
+.article, .overlay {
+    width: 13em;
+    height: 31em;
+    padding-left: 0em;
     
+}
+
+/*-----aboutme------*/
+
+#about p {
+    font-size: 1.5em;
+    margin-left: 1em;
+    
+}
+
+    .about-illustration {
+    height: 22em;
+    width: 22em; 
+        
+        
+    }
+    
+.about-section{
+    padding-top: 1em;
+    
+    
+    }
+    
+/*-----contact------*/
+    
+
+    #contact h2 h3  {
+    margin-left: 1em;
+    
+    }
+    
+    .gif {
+        height: 25em;
+        width: 25em;
+        
+    }
+    
+}
+
+
+@media (max-width: 960px){
+    
+    /*-----portfolio------*/
+    
+    a {
+    font-size: 1.2em;
+
+}
+    .column1, .column2, .column3, .column4 {
+    width: 8em;
+    height: 10em;
+    float: left;
+    margin-left: 0.188em;
+    margin-right: 0.188em;
+}
+
     .article, .overlay {
-    padding-bottom: 15em;
-    width: 12.1em;
-    height: 15em;
-}
-    #about p {
-    font-size: 1.3em;
-    font-family: 'Quicksand', sans-serif;
-    line-height: 1.4em;
-    color: black; 
+    width: 10em;
+    height: 24em;
+    padding-left: 0em;
     
 }
+    
+/*-----aboutme------*/
+    
+    #about p {
+        font-size: 1.3em; 
+    }
     
     .about-illustration {
-    display: none;
-    
+    height: 18em;
+    width: 18em;
+        
     }
     
-    #about {
-    grid-template-columns: 100%;
-    display: grid;
-    margin-right: 0.3em;
+/*-----contact------*/
     
-} 
+    .contact-section p {
+    font-size: 1.3em;
+    margin-left: 1.8em;
+        
+    }
+    
+    .github {
+    margin-left: 2em;
+        
+    }
+    
+    .gif {
+    height: 20em;
+    width: 20em;
+        
+    }
+    
+    .gotopbtn{
+    display: none;
+        
+    }   
+}
+
+
+
+@media (max-width: 740px){
+    
+    a {
+    font-size: 0.8em;
+
+}
+    .about-illustration {
+    display: none;
+        
+    }
     
     .gif {
     display: none;
         
     }
+
+/*------portfolio-----*/
     
-    .about-section {
-        max-width: 400px;
-        padding-top: 1em;
+    .article, .overlay {
+    width: 7em;
+    height: 16.7em;
+    padding-left: 0em;
         
     }
     
-    .content {
-    margin-left: 0.4em;    
-    
+    h2 {
+    font-size: 2.5em;    
+        
+        
     }
+    
+/*------aboutme-------*/
+    
+    
+    #about p {
+    font-size: 1.3em;
+        
+    }
+    
+    .about-me-title {
+    text-align: center;
+        
+    }
+    
+    #about {
+    grid-template-columns: 95% 5%;
+    display: grid;    
+        
+        
+    }
+    
+/*-----contact------*/
     
     #contact {
-    grid-template-columns: 100%;
-    display: grid;
-    margin-right: 0.3em;
-} 
-    
-    .contact-section p {
-    font-size: 1.5em;    
-    margin-left: 1em;
-    
+    grid-template-columns: 95% 5%;
+    display: grid;    
+        
+        
     }
     
-    .contact-section {
-    width: 100%;
-    max-width: 70em;
-    margin: auto;
-    line-height: 1.250em;
-    height: 0%;
-}
-    .social-media {
-    margin-left: 1em;    
-    
+    #contact h2 {
+    text-align: center;
+        
+    }    
+        
+        
     }
     
-    
-}
+
+@media (max-width: 740px){
