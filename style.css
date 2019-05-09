@@ -409,6 +409,13 @@ section{
     
 }
 
+.top-logo {
+        height: ;
+        width: ;
+        
+        
+    }
+
 /*-----aboutme------*/
 
 #about p {
@@ -470,6 +477,13 @@ section{
     
 }
     
+.top-logo {
+        height: ;
+        width: ;
+        
+        
+    }
+    
 /*-----aboutme------*/
     
     #about p {
@@ -522,6 +536,13 @@ section{
     
     .gif {
     display: none;
+        
+    }
+    
+    .top-logo {
+        height: ;
+        width: ;
+        
         
     }
 
@@ -578,4 +599,4 @@ section{
     }
     
 
-@media (max-width: 740px){
+@media (max-width: 530px){
